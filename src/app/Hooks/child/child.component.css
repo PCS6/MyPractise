@@ -1,0 +1,21 @@
+.bind {
+    font-size:  18px;
+    font-weight: 1000;
+    color: blueviolet;
+    text-align: center;
+    /* border: 2px solid grey ; */
+    padding: 5px;
+}
+.btn_align, #alignment, .twoway{
+    text-align:center;
+    margin: 12px;
+    position: relative;
+    left: 17%;
+}
+
+.form-control{
+    width: 50%;
+    display: block;
+    position: relative;
+    left: 18%;
+}

@@ -6,6 +6,7 @@
     "types": []
   },
   "files": [
+    /*Step1 - Will check for src maints file */
     "src/main.ts",
     "src/polyfills.ts"
   ],

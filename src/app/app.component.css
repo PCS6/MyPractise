@@ -1,0 +1,15 @@
+.title {
+    font-size:  18px;
+    font-weight: 500;
+    color: blueviolet;
+    text-align: center;
+    /* border: 2px solid grey ; */
+    padding: 5px;
+}
+.btn_align{
+    text-align:center;
+    margin: 12px;
+}
+#alignment{
+margin: 12px;
+}

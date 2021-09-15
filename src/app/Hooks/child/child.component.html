@@ -1,0 +1,10 @@
+<h1 class="bind">{{myNumber}}</h1>
+
+<br><br>
+  <input [(ngModel)] = data type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email">
+  <button type="button" class="btn btn-primary" id="alignment">Two way</button>
+<br><br>
+<span class="twoway" id="data" *ngIf = "show(); else elseBlock">{{data}}</span>
+<ng-template #elseBlock>
+<span class="twoway" id="data">Interview Preparation</span>
+</ng-template>

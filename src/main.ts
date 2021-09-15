@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+// Checks for Which module is given in bootstrapModule
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
